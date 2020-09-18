@@ -17,13 +17,4 @@ module "vpc" {
   public_subnet_tags = {
     Name = "overridden-name-public"
   }
-
-  tags = {
-    Owner       = "user"
-    Environment = "dev"
-  }
-
-  vpc_tags = {
-    Name = "vpc-name"
-  }
 }
